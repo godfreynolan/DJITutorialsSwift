@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080399469B2DBEA6F0789E6D /* libPods-GSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD01B4A59AB3761414068C5E /* libPods-GSDemo.a */; };
+		3AD98DAE26360529008C47F3 /* AircraftAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD98DAD26360529008C47F3 /* AircraftAnnotationView.swift */; };
+		3AD98DBB26360EFA008C47F3 /* AircraftAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD98DBA26360EFA008C47F3 /* AircraftAnnotation.swift */; };
+		3AD98DC8263613B3008C47F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD98DC7263613B3008C47F3 /* AppDelegate.swift */; };
+		3AD98DCD26361569008C47F3 /* WaypointConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD98DCC26361569008C47F3 /* WaypointConfigViewController.swift */; };
+		3AD98DD326362669008C47F3 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD98DD226362669008C47F3 /* MapController.swift */; };
+		3AD98DDE263737F8008C47F3 /* GSButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD98DDD263737F8008C47F3 /* GSButtonViewController.swift */; };
+		3AD98DE326374A3D008C47F3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD98DE226374A3D008C47F3 /* RootViewController.swift */; };
+		3AD98DE726375836008C47F3 /* DemoUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD98DE626375836008C47F3 /* DemoUtility.swift */; };
+		A4507F2A1CB506D40037861C /* GSButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4507F251CB506D40037861C /* GSButtonViewController.xib */; };
+		A4507F2C1CB506D40037861C /* WaypointConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4507F281CB506D40037861C /* WaypointConfigViewController.xib */; };
+		A4E86B811B4A374300F204DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E86B7F1B4A374300F204DA /* Main.storyboard */; };
+		A4E86B831B4A374300F204DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E86B821B4A374300F204DA /* Images.xcassets */; };
+		A4E86B861B4A374300F204DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E86B841B4A374300F204DA /* LaunchScreen.xib */; };
+		A4F9574C1B4ADD570017733D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F9574B1B4ADD570017733D /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AD98DAD26360529008C47F3 /* AircraftAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftAnnotationView.swift; sourceTree = "<group>"; };
+		3AD98DBA26360EFA008C47F3 /* AircraftAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftAnnotation.swift; sourceTree = "<group>"; };
+		3AD98DC7263613B3008C47F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AD98DCC26361569008C47F3 /* WaypointConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaypointConfigViewController.swift; sourceTree = "<group>"; };
+		3AD98DD226362669008C47F3 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		3AD98DDD263737F8008C47F3 /* GSButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSButtonViewController.swift; sourceTree = "<group>"; };
+		3AD98DE226374A3D008C47F3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		3AD98DE626375836008C47F3 /* DemoUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUtility.swift; sourceTree = "<group>"; };
+		5B0CAE4A21C1AEFA08AF5AD5 /* Pods-GSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GSDemo/Pods-GSDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A44305471DA88CF3009C1370 /* GSDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GSDemo.entitlements; sourceTree = "<group>"; };
+		A4507F251CB506D40037861C /* GSButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSButtonViewController.xib; sourceTree = "<group>"; };
+		A4507F281CB506D40037861C /* WaypointConfigViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WaypointConfigViewController.xib; sourceTree = "<group>"; };
+		A4E86B721B4A374300F204DA /* GSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E86B761B4A374300F204DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E86B801B4A374300F204DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4E86B821B4A374300F204DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A4E86B851B4A374300F204DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A4E86B901B4A374300F204DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E86B911B4A374300F204DA /* GSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSDemoTests.m; sourceTree = "<group>"; };
+		A4F9574B1B4ADD570017733D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BD01B4A59AB3761414068C5E /* libPods-GSDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GSDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28B91E9DC596A93C22AC0F1 /* Pods-GSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GSDemo/Pods-GSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4E86B6F1B4A374300F204DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F9574C1B4ADD570017733D /* MapKit.framework in Frameworks */,
+				080399469B2DBEA6F0789E6D /* libPods-GSDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45EC2DD14ECB83295E2E51A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D28B91E9DC596A93C22AC0F1 /* Pods-GSDemo.debug.xcconfig */,
+				5B0CAE4A21C1AEFA08AF5AD5 /* Pods-GSDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4E86B691B4A374300F204DA = {
+			isa = PBXGroup;
+			children = (
+				A4E86B741B4A374300F204DA /* GSDemo */,
+				A4E86B9B1B4A56C600F204DA /* Frameworks */,
+				A4E86B8E1B4A374300F204DA /* GSDemoTests */,
+				A4E86B731B4A374300F204DA /* Products */,
+				45EC2DD14ECB83295E2E51A5 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A4E86B731B4A374300F204DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E86B721B4A374300F204DA /* GSDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4E86B741B4A374300F204DA /* GSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A44305471DA88CF3009C1370 /* GSDemo.entitlements */,
+				3AD98DC7263613B3008C47F3 /* AppDelegate.swift */,
+				3AD98DE226374A3D008C47F3 /* RootViewController.swift */,
+				3AD98DBA26360EFA008C47F3 /* AircraftAnnotation.swift */,
+				3AD98DAD26360529008C47F3 /* AircraftAnnotationView.swift */,
+				3AD98DD226362669008C47F3 /* MapController.swift */,
+				3AD98DDD263737F8008C47F3 /* GSButtonViewController.swift */,
+				A4507F251CB506D40037861C /* GSButtonViewController.xib */,
+				3AD98DCC26361569008C47F3 /* WaypointConfigViewController.swift */,
+				A4507F281CB506D40037861C /* WaypointConfigViewController.xib */,
+				3AD98DE626375836008C47F3 /* DemoUtility.swift */,
+				A4E86B7F1B4A374300F204DA /* Main.storyboard */,
+				A4E86B841B4A374300F204DA /* LaunchScreen.xib */,
+				A4E86B821B4A374300F204DA /* Images.xcassets */,
+				A4E86B761B4A374300F204DA /* Info.plist */,
+			);
+			path = GSDemo;
+			sourceTree = "<group>";
+		};
+		A4E86B8E1B4A374300F204DA /* GSDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4E86B911B4A374300F204DA /* GSDemoTests.m */,
+				A4E86B8F1B4A374300F204DA /* Supporting Files */,
+			);
+			path = GSDemoTests;
+			sourceTree = "<group>";
+		};
+		A4E86B8F1B4A374300F204DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4E86B901B4A374300F204DA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4E86B9B1B4A56C600F204DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4F9574B1B4ADD570017733D /* MapKit.framework */,
+				BD01B4A59AB3761414068C5E /* libPods-GSDemo.a */,
+			);
+			name = Frameworks;
+			path = GSDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4E86B711B4A374300F204DA /* GSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E86B951B4A374300F204DA /* Build configuration list for PBXNativeTarget "GSDemo" */;
+			buildPhases = (
+				7C397C450D07EB3410E544D4 /* [CP] Check Pods Manifest.lock */,
+				A4E86B6E1B4A374300F204DA /* Sources */,
+				A4E86B6F1B4A374300F204DA /* Frameworks */,
+				A4E86B701B4A374300F204DA /* Resources */,
+				77FBCBEDAFAB5EF6E97903FA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSDemo;
+			productName = GSDemo;
+			productReference = A4E86B721B4A374300F204DA /* GSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4E86B6A1B4A374300F204DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = DJI;
+				TargetAttributes = {
+					A4E86B711B4A374300F204DA = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = R725LZS4G8;
+						LastSwiftMigration = 1240;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A4E86B6D1B4A374300F204DA /* Build configuration list for PBXProject "GSDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = A4E86B691B4A374300F204DA;
+			productRefGroup = A4E86B731B4A374300F204DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4E86B711B4A374300F204DA /* GSDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4E86B701B4A374300F204DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E86B811B4A374300F204DA /* Main.storyboard in Resources */,
+				A4507F2C1CB506D40037861C /* WaypointConfigViewController.xib in Resources */,
+				A4E86B861B4A374300F204DA /* LaunchScreen.xib in Resources */,
+				A4507F2A1CB506D40037861C /* GSButtonViewController.xib in Resources */,
+				A4E86B831B4A374300F204DA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77FBCBEDAFAB5EF6E97903FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSDemo/Pods-GSDemo-frameworks.sh",
+				"${PODS_ROOT}/DJI-SDK-iOS/iOS_Mobile_SDK/DJISDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJISDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GSDemo/Pods-GSDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C397C450D07EB3410E544D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4E86B6E1B4A374300F204DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD98DE726375836008C47F3 /* DemoUtility.swift in Sources */,
+				3AD98DAE26360529008C47F3 /* AircraftAnnotationView.swift in Sources */,
+				3AD98DE326374A3D008C47F3 /* RootViewController.swift in Sources */,
+				3AD98DBB26360EFA008C47F3 /* AircraftAnnotation.swift in Sources */,
+				3AD98DCD26361569008C47F3 /* WaypointConfigViewController.swift in Sources */,
+				3AD98DDE263737F8008C47F3 /* GSButtonViewController.swift in Sources */,
+				3AD98DD326362669008C47F3 /* MapController.swift in Sources */,
+				3AD98DC8263613B3008C47F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4E86B7F1B4A374300F204DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4E86B801B4A374300F204DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4E86B841B4A374300F204DA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4E86B851B4A374300F204DA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4E86B931B4A374300F204DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4E86B941B4A374300F204DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4E86B961B4A374300F204DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28B91E9DC596A93C22AC0F1 /* Pods-GSDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = GSDemo/GSDemo.entitlements;
+				DEVELOPMENT_TEAM = R725LZS4G8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSDemo/GSDemo-pch.pch";
+				INFOPLIST_FILE = GSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJISwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A4E86B971B4A374300F204DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0CAE4A21C1AEFA08AF5AD5 /* Pods-GSDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = GSDemo/GSDemo.entitlements;
+				DEVELOPMENT_TEAM = R725LZS4G8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSDemo/GSDemo-pch.pch";
+				INFOPLIST_FILE = GSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJISwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4E86B6D1B4A374300F204DA /* Build configuration list for PBXProject "GSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E86B931B4A374300F204DA /* Debug */,
+				A4E86B941B4A374300F204DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E86B951B4A374300F204DA /* Build configuration list for PBXNativeTarget "GSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E86B961B4A374300F204DA /* Debug */,
+				A4E86B971B4A374300F204DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4E86B6A1B4A374300F204DA /* Project object */;
+}

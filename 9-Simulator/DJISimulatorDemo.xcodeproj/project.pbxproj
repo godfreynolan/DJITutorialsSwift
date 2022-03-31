@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A507C78263E05DD00B648E2 /* VirtualStickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A507C77263E05DD00B648E2 /* VirtualStickView.swift */; };
+		3AD19F7C263CCF20006439C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD19F7B263CCF20006439C5 /* AppDelegate.swift */; };
+		3AD19F7E263CD0B6006439C5 /* DemoUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD19F7D263CD0B6006439C5 /* DemoUtility.swift */; };
+		3AD19F80263CD5B5006439C5 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD19F7F263CD5B5006439C5 /* RootViewController.swift */; };
+		3AD19F82263DBEE3006439C5 /* SimulatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD19F81263DBEE3006439C5 /* SimulatorViewController.swift */; };
+		A492F65E1D081720008C3159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A492F65C1D081720008C3159 /* Main.storyboard */; };
+		A492F6601D081720008C3159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A492F65F1D081720008C3159 /* Assets.xcassets */; };
+		A492F6631D081720008C3159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A492F6611D081720008C3159 /* LaunchScreen.storyboard */; };
+		DB06E0B7E4D0CC2DF40F610E /* libPods-DJISimulatorDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C518C5D84429B5BE525CB11 /* libPods-DJISimulatorDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A492F67D1D0817B4008C3159 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A507C77263E05DD00B648E2 /* VirtualStickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualStickView.swift; sourceTree = "<group>"; };
+		3AD19F7B263CCF20006439C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AD19F7D263CD0B6006439C5 /* DemoUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUtility.swift; sourceTree = "<group>"; };
+		3AD19F7F263CD5B5006439C5 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		3AD19F81263DBEE3006439C5 /* SimulatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorViewController.swift; sourceTree = "<group>"; };
+		9C518C5D84429B5BE525CB11 /* libPods-DJISimulatorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJISimulatorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0365E1E627859A62E912C5B /* Pods-DJISimulatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISimulatorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJISimulatorDemo/Pods-DJISimulatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A492F6501D081720008C3159 /* DJISimulatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJISimulatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A492F65D1D081720008C3159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A492F65F1D081720008C3159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A492F6621D081720008C3159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A492F6641D081720008C3159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A492F66D1D081720008C3159 /* DJISimulatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJISimulatorDemoTests.m; sourceTree = "<group>"; };
+		A492F66F1D081720008C3159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC939B20A16373ED16B06447 /* Pods-DJISimulatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISimulatorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJISimulatorDemo/Pods-DJISimulatorDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A492F64D1D081720008C3159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB06E0B7E4D0CC2DF40F610E /* libPods-DJISimulatorDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A492F6471D081720008C3159 = {
+			isa = PBXGroup;
+			children = (
+				A492F6521D081720008C3159 /* DJISimulatorDemo */,
+				A492F66C1D081720008C3159 /* DJISimulatorDemoTests */,
+				A492F6511D081720008C3159 /* Products */,
+				A7DC12C4B64457C2E7532422 /* Pods */,
+				DE224C211A7147237237A6DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A492F6511D081720008C3159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A492F6501D081720008C3159 /* DJISimulatorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A492F6521D081720008C3159 /* DJISimulatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3AD19F7B263CCF20006439C5 /* AppDelegate.swift */,
+				3AD19F7D263CD0B6006439C5 /* DemoUtility.swift */,
+				3A507C77263E05DD00B648E2 /* VirtualStickView.swift */,
+				3AD19F7F263CD5B5006439C5 /* RootViewController.swift */,
+				3AD19F81263DBEE3006439C5 /* SimulatorViewController.swift */,
+				A492F65C1D081720008C3159 /* Main.storyboard */,
+				A492F65F1D081720008C3159 /* Assets.xcassets */,
+				A492F6611D081720008C3159 /* LaunchScreen.storyboard */,
+				A492F6641D081720008C3159 /* Info.plist */,
+				A492F6781D0817AC008C3159 /* Frameworks */,
+			);
+			path = DJISimulatorDemo;
+			sourceTree = "<group>";
+		};
+		A492F66C1D081720008C3159 /* DJISimulatorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A492F66D1D081720008C3159 /* DJISimulatorDemoTests.m */,
+				A492F66F1D081720008C3159 /* Info.plist */,
+			);
+			path = DJISimulatorDemoTests;
+			sourceTree = "<group>";
+		};
+		A492F6781D0817AC008C3159 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7DC12C4B64457C2E7532422 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0365E1E627859A62E912C5B /* Pods-DJISimulatorDemo.debug.xcconfig */,
+				DC939B20A16373ED16B06447 /* Pods-DJISimulatorDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE224C211A7147237237A6DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C518C5D84429B5BE525CB11 /* libPods-DJISimulatorDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A492F64F1D081720008C3159 /* DJISimulatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A492F6721D081720008C3159 /* Build configuration list for PBXNativeTarget "DJISimulatorDemo" */;
+			buildPhases = (
+				AEF30BE5743349A6FE466F25 /* [CP] Check Pods Manifest.lock */,
+				A492F64C1D081720008C3159 /* Sources */,
+				A492F64D1D081720008C3159 /* Frameworks */,
+				A492F64E1D081720008C3159 /* Resources */,
+				A492F67D1D0817B4008C3159 /* Embed Frameworks */,
+				62199DDD795DE50A4EBAFAAE /* [CP] Embed Pods Frameworks */,
+				DCE6007EC61735B359036ED5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJISimulatorDemo;
+			productName = DJISimulatorDemo;
+			productReference = A492F6501D081720008C3159 /* DJISimulatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A492F6481D081720008C3159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Demo;
+				TargetAttributes = {
+					A492F64F1D081720008C3159 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R725LZS4G8;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = A492F64B1D081720008C3159 /* Build configuration list for PBXProject "DJISimulatorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = A492F6471D081720008C3159;
+			productRefGroup = A492F6511D081720008C3159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A492F64F1D081720008C3159 /* DJISimulatorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A492F64E1D081720008C3159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A492F6631D081720008C3159 /* LaunchScreen.storyboard in Resources */,
+				A492F6601D081720008C3159 /* Assets.xcassets in Resources */,
+				A492F65E1D081720008C3159 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62199DDD795DE50A4EBAFAAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DJISimulatorDemo/Pods-DJISimulatorDemo-frameworks.sh",
+				"${PODS_ROOT}/DJI-SDK-iOS/iOS_Mobile_SDK/DJISDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJISDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DJISimulatorDemo/Pods-DJISimulatorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEF30BE5743349A6FE466F25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DJISimulatorDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCE6007EC61735B359036ED5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DJISimulatorDemo/Pods-DJISimulatorDemo-resources.sh",
+				"${PODS_ROOT}/DJIFlySafeDatabaseResource/DJIFlySafeDatabaseResource.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DJIFlySafeDatabaseResource.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DJISimulatorDemo/Pods-DJISimulatorDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A492F64C1D081720008C3159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A507C78263E05DD00B648E2 /* VirtualStickView.swift in Sources */,
+				3AD19F80263CD5B5006439C5 /* RootViewController.swift in Sources */,
+				3AD19F7C263CCF20006439C5 /* AppDelegate.swift in Sources */,
+				3AD19F7E263CD0B6006439C5 /* DemoUtility.swift in Sources */,
+				3AD19F82263DBEE3006439C5 /* SimulatorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A492F65C1D081720008C3159 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A492F65D1D081720008C3159 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A492F6611D081720008C3159 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A492F6621D081720008C3159 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A492F6701D081720008C3159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A492F6711D081720008C3159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A492F6731D081720008C3159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0365E1E627859A62E912C5B /* Pods-DJISimulatorDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = R725LZS4G8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = DJISimulatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJISwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A492F6741D081720008C3159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC939B20A16373ED16B06447 /* Pods-DJISimulatorDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = R725LZS4G8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = DJISimulatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJISwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A492F64B1D081720008C3159 /* Build configuration list for PBXProject "DJISimulatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A492F6701D081720008C3159 /* Debug */,
+				A492F6711D081720008C3159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A492F6721D081720008C3159 /* Build configuration list for PBXNativeTarget "DJISimulatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A492F6731D081720008C3159 /* Debug */,
+				A492F6741D081720008C3159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A492F6481D081720008C3159 /* Project object */;
+}

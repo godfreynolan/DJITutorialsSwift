@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A438D3331C97E3270003D129 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A438D3321C97E3270003D129 /* main.m */; };
+		A438D3361C97E3270003D129 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A438D3351C97E3270003D129 /* AppDelegate.m */; };
+		A438D3441C97E3270003D129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A438D3431C97E3270003D129 /* Assets.xcassets */; };
+		A438D3471C97E3270003D129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A438D3451C97E3270003D129 /* LaunchScreen.storyboard */; };
+		A438D3631C97E4CA0003D129 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A438D3621C97E4CA0003D129 /* RootViewController.m */; };
+		A438D4EF1C9948850003D129 /* DemoUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A438D4EE1C9948850003D129 /* DemoUtility.m */; };
+		A438D4F81C994B590003D129 /* ActiveTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A438D4F41C994B590003D129 /* ActiveTrackViewController.m */; };
+		A438D4FC1C994B800003D129 /* TrackingRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A438D4FB1C994B800003D129 /* TrackingRenderView.m */; };
+		A438D4FF1C994B880003D129 /* PointingTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = A438D4FE1C994B880003D129 /* PointingTouchView.m */; };
+		A438D5171C9953030003D129 /* TapFlyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A438D5161C9953030003D129 /* TapFlyViewController.m */; };
+		A46ED68E1F0E4A5000F2EBD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46ED68C1F0E4A5000F2EBD6 /* Main.storyboard */; };
+		A4C539A81C9954A200757368 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C539A71C9954A200757368 /* Foundation.framework */; };
+		A4D307321F0E47B400182FA3 /* DJIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D307301F0E47B400182FA3 /* DJIScrollView.m */; };
+		A4D307331F0E47B400182FA3 /* DJIScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D307311F0E47B400182FA3 /* DJIScrollView.xib */; };
+		F25E1E3AC41F015CE7C1545C /* libPods-P4Missions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE5B89328C3970CFE45F624 /* libPods-P4Missions.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A4C53A261C99566000757368 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A41940A31DCB76970076478C /* P4Missions.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = P4Missions.entitlements; sourceTree = "<group>"; };
+		A438D32E1C97E3270003D129 /* P4Missions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P4Missions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A438D3321C97E3270003D129 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A438D3341C97E3270003D129 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A438D3351C97E3270003D129 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A438D3431C97E3270003D129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A438D3461C97E3270003D129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A438D3481C97E3270003D129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A438D3511C97E3270003D129 /* P4MissionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = P4MissionsTests.m; sourceTree = "<group>"; };
+		A438D3531C97E3270003D129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A438D3611C97E4CA0003D129 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A438D3621C97E4CA0003D129 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A438D4ED1C9948850003D129 /* DemoUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoUtility.h; sourceTree = "<group>"; };
+		A438D4EE1C9948850003D129 /* DemoUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoUtility.m; sourceTree = "<group>"; };
+		A438D4F31C994B590003D129 /* ActiveTrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveTrackViewController.h; sourceTree = "<group>"; };
+		A438D4F41C994B590003D129 /* ActiveTrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveTrackViewController.m; sourceTree = "<group>"; };
+		A438D4FA1C994B800003D129 /* TrackingRenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingRenderView.h; sourceTree = "<group>"; };
+		A438D4FB1C994B800003D129 /* TrackingRenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingRenderView.m; sourceTree = "<group>"; };
+		A438D4FD1C994B880003D129 /* PointingTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointingTouchView.h; sourceTree = "<group>"; };
+		A438D4FE1C994B880003D129 /* PointingTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointingTouchView.m; sourceTree = "<group>"; };
+		A438D5151C9953030003D129 /* TapFlyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapFlyViewController.h; sourceTree = "<group>"; };
+		A438D5161C9953030003D129 /* TapFlyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapFlyViewController.m; sourceTree = "<group>"; };
+		A46ED68D1F0E4A5000F2EBD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4C539A71C9954A200757368 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4D3072F1F0E47B400182FA3 /* DJIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJIScrollView.h; sourceTree = "<group>"; };
+		A4D307301F0E47B400182FA3 /* DJIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJIScrollView.m; sourceTree = "<group>"; };
+		A4D307311F0E47B400182FA3 /* DJIScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DJIScrollView.xib; sourceTree = "<group>"; };
+		ADE5B89328C3970CFE45F624 /* libPods-P4Missions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-P4Missions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B668C4A12A035B70823C15F3 /* Pods-P4Missions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P4Missions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-P4Missions/Pods-P4Missions.debug.xcconfig"; sourceTree = "<group>"; };
+		E99BB34A48ABE875CD06AFB6 /* Pods-P4Missions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P4Missions.release.xcconfig"; path = "Pods/Target Support Files/Pods-P4Missions/Pods-P4Missions.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A438D32B1C97E3270003D129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C539A81C9954A200757368 /* Foundation.framework in Frameworks */,
+				F25E1E3AC41F015CE7C1545C /* libPods-P4Missions.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F7989BF9952BA868671B213 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADE5B89328C3970CFE45F624 /* libPods-P4Missions.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A438D3251C97E3270003D129 = {
+			isa = PBXGroup;
+			children = (
+				A438D3301C97E3270003D129 /* P4Missions */,
+				A438D3501C97E3270003D129 /* P4MissionsTests */,
+				A438D32F1C97E3270003D129 /* Products */,
+				AFEDF01D144050E76A8AE20F /* Pods */,
+				5F7989BF9952BA868671B213 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A438D32F1C97E3270003D129 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A438D32E1C97E3270003D129 /* P4Missions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A438D3301C97E3270003D129 /* P4Missions */ = {
+			isa = PBXGroup;
+			children = (
+				A41940A31DCB76970076478C /* P4Missions.entitlements */,
+				A438D3341C97E3270003D129 /* AppDelegate.h */,
+				A438D3351C97E3270003D129 /* AppDelegate.m */,
+				A438D3611C97E4CA0003D129 /* RootViewController.h */,
+				A438D3621C97E4CA0003D129 /* RootViewController.m */,
+				A438D4F21C994B590003D129 /* ActiveTrackMission */,
+				A438D4F51C994B590003D129 /* TapFlyMission */,
+				A438D4ED1C9948850003D129 /* DemoUtility.h */,
+				A438D4EE1C9948850003D129 /* DemoUtility.m */,
+				A4D3072F1F0E47B400182FA3 /* DJIScrollView.h */,
+				A4D307301F0E47B400182FA3 /* DJIScrollView.m */,
+				A4D307311F0E47B400182FA3 /* DJIScrollView.xib */,
+				A46ED68C1F0E4A5000F2EBD6 /* Main.storyboard */,
+				A438D3451C97E3270003D129 /* LaunchScreen.storyboard */,
+				A438D3431C97E3270003D129 /* Assets.xcassets */,
+				A438D39E1C97EAD60003D129 /* Frameworks */,
+				A438D3311C97E3270003D129 /* Supporting Files */,
+			);
+			path = P4Missions;
+			sourceTree = "<group>";
+		};
+		A438D3311C97E3270003D129 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A438D3481C97E3270003D129 /* Info.plist */,
+				A438D3321C97E3270003D129 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A438D3501C97E3270003D129 /* P4MissionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A438D3511C97E3270003D129 /* P4MissionsTests.m */,
+				A438D3531C97E3270003D129 /* Info.plist */,
+			);
+			path = P4MissionsTests;
+			sourceTree = "<group>";
+		};
+		A438D39E1C97EAD60003D129 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4C539A71C9954A200757368 /* Foundation.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		A438D4F21C994B590003D129 /* ActiveTrackMission */ = {
+			isa = PBXGroup;
+			children = (
+				A438D4F31C994B590003D129 /* ActiveTrackViewController.h */,
+				A438D4F41C994B590003D129 /* ActiveTrackViewController.m */,
+				A438D4FA1C994B800003D129 /* TrackingRenderView.h */,
+				A438D4FB1C994B800003D129 /* TrackingRenderView.m */,
+			);
+			path = ActiveTrackMission;
+			sourceTree = "<group>";
+		};
+		A438D4F51C994B590003D129 /* TapFlyMission */ = {
+			isa = PBXGroup;
+			children = (
+				A438D5151C9953030003D129 /* TapFlyViewController.h */,
+				A438D5161C9953030003D129 /* TapFlyViewController.m */,
+				A438D4FD1C994B880003D129 /* PointingTouchView.h */,
+				A438D4FE1C994B880003D129 /* PointingTouchView.m */,
+			);
+			path = TapFlyMission;
+			sourceTree = "<group>";
+		};
+		AFEDF01D144050E76A8AE20F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B668C4A12A035B70823C15F3 /* Pods-P4Missions.debug.xcconfig */,
+				E99BB34A48ABE875CD06AFB6 /* Pods-P4Missions.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A438D32D1C97E3270003D129 /* P4Missions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A438D3561C97E3270003D129 /* Build configuration list for PBXNativeTarget "P4Missions" */;
+			buildPhases = (
+				D7165D1E493C71930C251E8F /* [CP] Check Pods Manifest.lock */,
+				A438D32A1C97E3270003D129 /* Sources */,
+				A438D32B1C97E3270003D129 /* Frameworks */,
+				A438D32C1C97E3270003D129 /* Resources */,
+				A4C53A261C99566000757368 /* Embed Frameworks */,
+				F2DE99B88CFD8A07D1735642 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = P4Missions;
+			productName = P4Missions;
+			productReference = A438D32E1C97E3270003D129 /* P4Missions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A438D3261C97E3270003D129 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DJI;
+				TargetAttributes = {
+					A438D32D1C97E3270003D129 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R725LZS4G8;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A438D3291C97E3270003D129 /* Build configuration list for PBXProject "P4Missions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = A438D3251C97E3270003D129;
+			productRefGroup = A438D32F1C97E3270003D129 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A438D32D1C97E3270003D129 /* P4Missions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A438D32C1C97E3270003D129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A438D3471C97E3270003D129 /* LaunchScreen.storyboard in Resources */,
+				A438D3441C97E3270003D129 /* Assets.xcassets in Resources */,
+				A4D307331F0E47B400182FA3 /* DJIScrollView.xib in Resources */,
+				A46ED68E1F0E4A5000F2EBD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D7165D1E493C71930C251E8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-P4Missions-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2DE99B88CFD8A07D1735642 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P4Missions/Pods-P4Missions-frameworks.sh",
+				"${PODS_ROOT}/DJI-SDK-iOS/iOS_Mobile_SDK/DJISDK.framework",
+				"${PODS_ROOT}/DJIWidget/FFmpeg/FFmpeg.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJISDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFmpeg.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-P4Missions/Pods-P4Missions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A438D32A1C97E3270003D129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A438D5171C9953030003D129 /* TapFlyViewController.m in Sources */,
+				A438D4FF1C994B880003D129 /* PointingTouchView.m in Sources */,
+				A438D3361C97E3270003D129 /* AppDelegate.m in Sources */,
+				A4D307321F0E47B400182FA3 /* DJIScrollView.m in Sources */,
+				A438D4F81C994B590003D129 /* ActiveTrackViewController.m in Sources */,
+				A438D4EF1C9948850003D129 /* DemoUtility.m in Sources */,
+				A438D3631C97E4CA0003D129 /* RootViewController.m in Sources */,
+				A438D4FC1C994B800003D129 /* TrackingRenderView.m in Sources */,
+				A438D3331C97E3270003D129 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A438D3451C97E3270003D129 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A438D3461C97E3270003D129 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A46ED68C1F0E4A5000F2EBD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A46ED68D1F0E4A5000F2EBD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A438D3541C97E3270003D129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A438D3551C97E3270003D129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A438D3571C97E3270003D129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B668C4A12A035B70823C15F3 /* Pods-P4Missions.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = P4Missions/P4Missions.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = R725LZS4G8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DJIWidget/FFmpeg",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = P4Missions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = DJISwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7s";
+			};
+			name = Debug;
+		};
+		A438D3581C97E3270003D129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99BB34A48ABE875CD06AFB6 /* Pods-P4Missions.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = P4Missions/P4Missions.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = R725LZS4G8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DJIWidget/FFmpeg",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = P4Missions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = DJISwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A438D3291C97E3270003D129 /* Build configuration list for PBXProject "P4Missions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A438D3541C97E3270003D129 /* Debug */,
+				A438D3551C97E3270003D129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A438D3561C97E3270003D129 /* Build configuration list for PBXNativeTarget "P4Missions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A438D3571C97E3270003D129 /* Debug */,
+				A438D3581C97E3270003D129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A438D3261C97E3270003D129 /* Project object */;
+}
