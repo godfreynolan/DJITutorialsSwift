@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37C5FCF45CDA8097D1C77243 /* Pods_FPVDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344902C867A5ED95CD56E27 /* Pods_FPVDemo.framework */; };
 		A4FA8DE61F6BDD8000EBD60F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FA8DDE1F6BDD8000EBD60F /* AppDelegate.swift */; };
 		A4FA8DE71F6BDD8000EBD60F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FA8DDF1F6BDD8000EBD60F /* Assets.xcassets */; };
 		A4FA8DE81F6BDD8000EBD60F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FA8DE01F6BDD8000EBD60F /* LaunchScreen.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DF776281933FC0125E42B03 /* Pods-FPVDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPVDemo.release.xcconfig"; path = "Target Support Files/Pods-FPVDemo/Pods-FPVDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6E06025A466252738B887092 /* Pods-FPVDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPVDemo.debug.xcconfig"; path = "Target Support Files/Pods-FPVDemo/Pods-FPVDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		86985CC91E834EC200577EC7 /* FPVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FA8DDE1F6BDD8000EBD60F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4FA8DDF1F6BDD8000EBD60F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		A4FA8DE31F6BDD8000EBD60F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4FA8DE41F6BDD8000EBD60F /* FPVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPVViewController.swift; sourceTree = "<group>"; };
 		A4FA8DE51F6BDD8000EBD60F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B344902C867A5ED95CD56E27 /* Pods_FPVDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FPVDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,18 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C5FCF45CDA8097D1C77243 /* Pods_FPVDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6814C4C2FE191FABB52AC1DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B344902C867A5ED95CD56E27 /* Pods_FPVDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		86985CC01E834EC200577EC7 = {
 			isa = PBXGroup;
 			children = (
 				A4FA8DDD1F6BDD8000EBD60F /* FPVDemo */,
 				86985CCA1E834EC200577EC7 /* Products */,
 				AAA999D36AC3D78C0B5ABFB0 /* Pods */,
+				6814C4C2FE191FABB52AC1DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +82,8 @@
 		AAA999D36AC3D78C0B5ABFB0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				6E06025A466252738B887092 /* Pods-FPVDemo.debug.xcconfig */,
+				0DF776281933FC0125E42B03 /* Pods-FPVDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -79,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86985CDD1E834EC200577EC7 /* Build configuration list for PBXNativeTarget "FPVDemo" */;
 			buildPhases = (
+				5304F73A24EB6942F16E0703 /* [CP] Check Pods Manifest.lock */,
 				86985CC51E834EC200577EC7 /* Sources */,
 				86985CC61E834EC200577EC7 /* Frameworks */,
 				86985CC71E834EC200577EC7 /* Resources */,
+				DF595B454A4E89C691418146 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +158,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5304F73A24EB6942F16E0703 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FPVDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF595B454A4E89C691418146 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FPVDemo/Pods-FPVDemo-frameworks.sh",
+				"${PODS_ROOT}/DJI-SDK-iOS/iOS_Mobile_SDK/DJISDK.framework",
+				"${PODS_ROOT}/DJIWidget/FFmpeg/FFmpeg.framework",
+				"${BUILT_PRODUCTS_DIR}/DJIWidget/DJIWidget.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJISDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFmpeg.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJIWidget.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FPVDemo/Pods-FPVDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		86985CC51E834EC200577EC7 /* Sources */ = {
@@ -274,6 +339,7 @@
 		};
 		86985CDE1E834EC200577EC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E06025A466252738B887092 /* Pods-FPVDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -295,12 +361,13 @@
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64 arm64e armv7s";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Debug;
 		};
 		86985CDF1E834EC200577EC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF776281933FC0125E42B03 /* Pods-FPVDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -322,7 +389,7 @@
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64 arm64e armv7s";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Release;
 		};
