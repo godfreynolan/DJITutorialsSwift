@@ -59,7 +59,7 @@ Please delete all the paths in **Header Search Paths** except `$(PODS_ROOT)/Head
 
 ## Tutorial
 
-For this demo's tutorial: **Integrate SDK into Application**, please refer to <https://developer.dji.com/mobile-sdk/documentation/application-development-workflow/workflow-integrate.html>.
+For this demo's Objective C tutorial: **Integrate SDK into Application**, please refer to <https://developer.dji.com/mobile-sdk/documentation/application-development-workflow/workflow-integrate.html>.
 
 ## Feedback
 
