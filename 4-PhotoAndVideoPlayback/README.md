@@ -6,7 +6,7 @@ This PlaybackDemo is designed for you to learn how to use `DJIPlaybackManager` t
 
 ## Requirements
 
- - iOS 9.0+
+ - iOS 10.0+
  - Xcode 8.0+
  - DJI iOS SDK 4.14
  - DJI iOS UX SDK 4.14

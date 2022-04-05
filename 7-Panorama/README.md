@@ -57,7 +57,7 @@ installed.
 
 For this demo's tutorial: **Creating a Panorama Application**, please refer to <https://developer.dji.com/mobile-sdk/documentation/ios-tutorials/PanoDemo.html>.
 
-The tutorial is currently only available in Objective C, but there are plans to create a swift version.
+The tutorial is currently only available in Objective C.
 
 ## Known Issues
 

@@ -57,7 +57,7 @@ installed.
 
 ## Tutorial
 
-For this demo's tutorial: **Creating a Camera Application**, please refer to <https://developer.dji.com/mobile-sdk/documentation/ios-tutorials/index.html>.
+For this demo's Objective C tutorial: **Creating a Camera Application**, please refer to <https://developer.dji.com/mobile-sdk/documentation/ios-tutorials/index.html>.
 
 ## DJIWidget Integration
 

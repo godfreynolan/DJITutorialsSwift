@@ -57,8 +57,8 @@ installed.
 
 For this demo's tutorial: **DJI Remote Logger Tutorial**, please refer to <https://developer.dji.com/mobile-sdk/documentation/ios-tutorials/RemoteLoggerDemo.html>.
 
+The tutorial is currently only available in Objective C.
 
-The tutorial is currently only available in Objective C, but there are plans to create a swift version.
 
 ## Feedback
 When reporting bugs, at a minimum please let us know:

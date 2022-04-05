@@ -57,9 +57,7 @@ installed.
 
 For this demo's tutorial: **DJI Simulator Tutorial**, please refer to <https://developer.dji.com/mobile-sdk/documentation/ios-tutorials/SimulatorDemo.html>.
 
-The tutorial is currently only available in Objective C, but there are plans to create a swift version.
-
-A demo video of this application can be [found here](https://www.youtube.com/watch?v=xx41tI5Uhz4)
+The tutorial is currently only available in Objective C.
 
 
 ## Feedback

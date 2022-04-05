@@ -6,7 +6,7 @@ This demo is designed for you to learn how to use `DJIMediaManager` to interact 
 
 ## Requirements
 
- - iOS 9.0+
+ - iOS 10.0+
  - Xcode 8.0+
  - DJI iOS SDK 4.14
  - DJI iOS UX SDK 4.14
@@ -69,6 +69,7 @@ installed.
 ## Tutorial
 
 For this demo's tutorial: **Creating a Media Manager Application**, please refer to <https://riis.com/blog/dji-sdk-tutorial-creating-a-media-manager-application/>.
+
 The original Objective C tutorial is available on the DJI developer website.
 
 ## Feedback

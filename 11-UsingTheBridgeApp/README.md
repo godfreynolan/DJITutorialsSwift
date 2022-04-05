@@ -59,9 +59,7 @@ installed.
 
 For this demo's tutorial: **iOS Bridge App Tutorial**, please refer to <https://developer.dji.com/mobile-sdk/documentation/ios-tutorials/BridgeAppDemo.html>.
 
-The tutorial is currently only available in Objective C, but there are plans to create a swift version.
-
-A demo video for this application can be [found here](https://www.youtube.com/watch?v=FuWW6wKCY_k).
+The tutorial is currently only available in Objective C.
 
 
 ## Known Issues

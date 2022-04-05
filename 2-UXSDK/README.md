@@ -6,7 +6,7 @@ This UXSDK-Demo-Swift is designed for you to gain a better understanding of the 
 
 ## Requirements
 
- - iOS 9.0+
+ - iOS 10.0+
  - Xcode 8.0+
  - DJI iOS SDK 4.14
  - DJIWidget 1.6.4
@@ -60,16 +60,6 @@ installed.
 Here's this demo's [tutorial](https://github.com/SamScherer1/SwiftDJITutorials/blob/master/source/ios-tutorials/UXSDKDemo.md).
 
 Here's a [version using Objective C](https://developer.dji.com/mobile-sdk/documentation/ios-tutorials/UXSDKDemo.html).
-
-The tutorial is currently only available in Objective C, but there are plans to create a Swift version.
-
-A demo video of the application [can be found here](https://www.youtube.com/watch?v=niESaYdsdpQ)
-
-
-## Known Issues
-
-The demo app won't initially compile. You must comment out two lines from the UXSDK framework's header after running pod install. 
-These lines import DUXWidgetcollectionView and DUXAircraftConnectionChecklistItem
 
 ## Feedback
 When reporting bugs, at a minimum please let us know:

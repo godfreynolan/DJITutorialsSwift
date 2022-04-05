@@ -57,9 +57,7 @@ installed.
 
 For this demo's tutorial: **Creating a MapView and Waypoint Application**, please refer to <https://developer.dji.com/mobile-sdk/documentation/ios-tutorials/GSDemo.html>.
 
-The tutorial is currently only available in Objective C, but there are plans to create a swift version.
-
-A demo video of the application can be [found here](https://www.youtube.com/watch?v=q_mSwKlJcUw).
+The tutorial is currently only available in Objective C.
 
 ## Feedback
 When reporting bugs, at a minimum please let us know:
